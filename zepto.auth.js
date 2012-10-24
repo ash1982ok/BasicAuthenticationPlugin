@@ -157,8 +157,8 @@
 			console.log('error');
 		}
 	
-
-		// PLUGIN CODE 		
+ 
+		// PLUGIN CODE GOES Here	
 		 $.fn.BasicAuth = function( method ) {
 	    
 		    // Method calling logic
