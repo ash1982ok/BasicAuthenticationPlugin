@@ -1,0 +1,22 @@
+<!doctype html>
+	
+	<head>
+		<title>Authentication Plugin Test</title>
+	</head>
+	
+	<body>
+
+		<!--<script type="text/javascript" src="libs/jquery-1.8.2.js"></script>-->
+		<script type="text/javascript" src="libs/zepto.js"></script>
+		<script type="text/javascript" src="zepto.auth.js"></script>
+
+		<script type="text/javascript">
+
+			var isValidUser = $('document').BasicAuth('isValidUser',{
+				userName:"Ashok",
+				password:"Password"
+			});
+
+		</script>
+	</body>
+</html>
