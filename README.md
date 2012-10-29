@@ -20,3 +20,6 @@ var userDetails = $().BasicAuth('authenticate',{
 				userName:"Ashok",
 				password:"Password"
 			}); 
+
+
+NOTE: This is a very initial version hence u might find few issues. Please do report issues / feedback. Thanks
